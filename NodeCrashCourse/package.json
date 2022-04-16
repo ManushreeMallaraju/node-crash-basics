@@ -1,5 +1,5 @@
 {
-  "name": "node-crash-course",
+  "name": "crashcourse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,10 @@
     "start": "node index",
     "dev": "nodemon index"
   },
-  "author": "Manushree",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "node": "^17.7.2",
     "nodemon": "^2.0.15"
   }
 }

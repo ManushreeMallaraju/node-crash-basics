@@ -1,4 +1,5 @@
-//TODO: To work with Node JS, without Express
+// Course from Brad
+// TODO: To work with Node JS, without Express
 
 // Nutshell : Creates a server, that gets a request and response every time a file is sent,
 // look in the public folder, if '/' load index.html else load wat ever html content is
@@ -23,7 +24,7 @@ const server = http.createServer((req, res) => {
     //         path.join(__dirname, 'public', 'index.html'),
     //         (err, content) => {
     //             if (err) throw err;
-    //             res.writeHead(200, { 'Content-Type': 'text/html' });
+    //             res.writeHead(200, { 'Content-Type': 'text/html' }); // writes to the headers
     //             res.end(content);
     //         }
     //     )
